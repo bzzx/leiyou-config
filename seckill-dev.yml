@@ -19,14 +19,14 @@ spring:
       minimum-idle: 10
   rabbitmq:
     virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.19.121
+    username: guest
+    password: guest
+    host: 127.0.0.1
     template:
       exchange: leyou.order.exchange
     publisher-confirms: true
   redis:
-    host: 192.168.19.121
+    host: 127.0.0.1
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
