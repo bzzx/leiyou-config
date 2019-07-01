@@ -5,8 +5,8 @@ spring:
     name: auth-service
   rabbitmq:
     virtual-host: /leyou
-    username: root
-    password: 123456
+    username: guest
+    password: guest
     host: 127.0.0.1:10086
 eureka:
   client:
