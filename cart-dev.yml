@@ -6,7 +6,7 @@ spring:
   redis:
     host: 127.0.0.1
   rabbitmq:
-    virtual-host: /leyou
+    virtual-host: /
     username: qm
     password: 123456
     host: 127.0.0.1
