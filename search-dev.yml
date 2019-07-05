@@ -8,9 +8,9 @@ spring:
       cluster-name: elasticsearch
       cluster-nodes: 192.168.152.142:9300
   rabbitmq:
-    virtual-host: /leyou
-    username: guest
-    password: guest
+    virtual-host: /haha
+    username: mq
+    password: 123456
     host: 127.0.0.1
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
