@@ -13,5 +13,5 @@ leyou:
   sms:
     accessKeyId: LTAI196Huj2cCYqr
     accessKeySecret: 4TP1rYJuBvGcAFcws0W0FJ0c9oUqkV
-    signName: 乐优商城
-    verifyCodeTemplate: SMS_148614415
+    signName: 发送验证码
+    verifyCodeTemplate: SMS_13540085
